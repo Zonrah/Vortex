@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "modules": [
+    {
+      "id": "weebcentral-v2",
+      "slug": "weebcentral",
+      "nodeLive": true,
+      "queries": ["One Piece", "Jujutsu Kaisen"],
+      "niche": { "includeTags": ["Comedy", "Horror"], "excludeTags": [], "status": "" },
+      "paginationPages": 5
+    },
+    {
+      "id": "atsu",
+      "slug": "atsu",
+      "nodeLive": true,
+      "queries": ["Lookism", "The Stellar Swordmaster", "One Piece"],
+      "niche": { "includeTags": ["Comedy", "Horror"], "excludeTags": [], "status": "" },
+      "paginationPages": 5
+    },
+    {
+      "id": "mangafire-v2",
+      "slug": "mangafire",
+      "nodeLive": false,
+      "queries": ["One Piece", "Attack on Titan"],
+      "niche": null,
+      "paginationPages": 5,
+      "requiresIOSReason": "This module requires the app's real WKWebView pagev2 bridge."
+    },
+    {
+      "id": "oceanofpdf",
+      "slug": "oceanofpdf",
+      "nodeLive": false,
+      "queries": ["Pride and Prejudice"],
+      "niche": null,
+      "paginationPages": 2,
+      "requiresIOSReason": "OceanofPDF serves Cloudflare browser verification to non-browser clients; live checks need the app's real WKWebView pagev2 bridge."
+    },
+    {
+      "id": "mangakatana",
+      "slug": "mangakatana",
+      "nodeLive": true,
+      "queries": ["One Piece", "Attack on Titan"],
+      "niche": null,
+      "paginationPages": 5
+    }
+  ]
+}

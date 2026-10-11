@@ -1,0 +1,49 @@
+{
+  "contractVersion": 1,
+  "id": "vortexscans-v1",
+  "familyID": "vortexscans-v1",
+  "name": "Vortex",
+  "version": "0.1.1",
+  "minimumAppVersion": "1.0.0",
+  "language": "en",
+  "contentType": "pageImages",
+  "contentRating": "suggestive",
+  "releaseTrack": "beta",
+  "status": "active",
+  "legacyIDs": [],
+  "capabilities": [
+    "search",
+    "details",
+    "chapters",
+    "images",
+    "imageRequest",
+    "discovery"
+  ],
+  "baseURL": "https://vortexscans.org",
+  "universalLink": "https://synthetiq.uk/manga/modules/vortexscans",
+  "allowedHosts": [
+    "vortexscans.org",
+    "api.vortexscans.org",
+    "storage.vortexscans.org"
+  ],
+  "entry": {
+    "path": "modules/vortexscans/index.js",
+    "sha256": "028a2f153da7e3df80af6f404e7906cc0b9659a4411773c0165b1088d891c044"
+  },
+  "icon": {
+    "path": "modules/vortexscans/icon.png",
+    "sha256": "97ed2485a950d447f5a7c0185f1340bd06ff0e34848ea267a876aed110186514"
+  },
+  "limits": {
+    "cacheTTLSeconds": 0,
+    "maxConcurrentRequests": 1,
+    "maxResponseBytes": 3145728,
+    "maxScriptBytes": 524288,
+    "timeoutMilliseconds": 25000
+  },
+  "attribution": {
+    "author": "Synthetiq source contributors",
+    "website": "https://vortexscans.org",
+    "notes": "Original adapter; Synthetiq-HQ contract reference, upstream license preserved. Placeholder icon."
+  }
+}

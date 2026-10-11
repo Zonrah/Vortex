@@ -1,0 +1,19 @@
+{
+  "data": {
+    "manga": {
+      "_id": "Fixture01",
+      "name": "Invented Fixture",
+      "thumbnail": "https://allmanga.to/pics/fixture.png",
+      "isAdult": false,
+      "genres": [
+        "Adventure"
+      ],
+      "tags": [],
+      "description": "Invented metadata only.",
+      "authors": [
+        "Invented Author"
+      ],
+      "status": "Ongoing"
+    }
+  }
+}

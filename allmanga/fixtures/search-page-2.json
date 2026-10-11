@@ -1,0 +1,21 @@
+{
+  "data": {
+    "mangas": {
+      "pageInfo": {
+        "total": 21
+      },
+      "edges": [
+        {
+          "_id": "Fixture02",
+          "name": "Invented Fixture",
+          "thumbnail": "https://allmanga.to/pics/fixture.png",
+          "isAdult": false,
+          "genres": [
+            "Adventure"
+          ],
+          "tags": []
+        }
+      ]
+    }
+  }
+}

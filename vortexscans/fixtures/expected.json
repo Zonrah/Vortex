@@ -1,0 +1,73 @@
+{
+  "search": {
+    "items": [
+      {
+        "id": "fixture-vortex",
+        "href": "https://vortexscans.org/series/fixture-vortex",
+        "title": "Invented Vortex",
+        "cover": "https://storage.vortexscans.org/upload/fixture/cover.png"
+      }
+    ],
+    "hasMore": true
+  },
+  "details": {
+    "id": "fixture-vortex",
+    "href": "https://vortexscans.org/series/fixture-vortex",
+    "title": "Invented Vortex",
+    "cover": "https://storage.vortexscans.org/upload/fixture/cover.png",
+    "description": "Invented description.",
+    "author": "Invented Author",
+    "status": "ONGOING",
+    "tags": [
+      "Action"
+    ]
+  },
+  "chapters": [
+    {
+      "id": "fixture-vortex/chapter-1",
+      "href": "https://vortexscans.org/series/fixture-vortex/chapter-1",
+      "title": "Chapter 1 \u2014 First",
+      "number": 1,
+      "releaseDate": "2026-01-01T00:00:00Z",
+      "language": "en"
+    },
+    {
+      "id": "fixture-vortex/chapter-2",
+      "href": "https://vortexscans.org/series/fixture-vortex/chapter-2",
+      "title": "Chapter 2 \u2014 Second",
+      "number": 2,
+      "releaseDate": "2026-01-01T00:00:00Z",
+      "language": "en"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://storage.vortexscans.org/upload/fixture/01.webp",
+      "headers": {
+        "Referer": "https://vortexscans.org/"
+      }
+    },
+    {
+      "url": "https://storage.vortexscans.org/upload/fixture/02.webp",
+      "headers": {
+        "Referer": "https://vortexscans.org/"
+      }
+    }
+  ],
+  "discovery": {
+    "sections": [
+      {
+        "id": "latest",
+        "title": "Latest updates",
+        "items": [
+          {
+            "id": "fixture-vortex",
+            "href": "https://vortexscans.org/series/fixture-vortex",
+            "title": "Invented Vortex",
+            "cover": "https://storage.vortexscans.org/upload/fixture/cover.png"
+          }
+        ]
+      }
+    ]
+  }
+}

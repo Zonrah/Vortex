@@ -1,0 +1,41 @@
+{
+  "data": {
+    "mangas": {
+      "pageInfo": {
+        "total": 21
+      },
+      "edges": [
+        {
+          "_id": "Fixture01",
+          "name": "Invented Fixture",
+          "thumbnail": "https://allmanga.to/pics/fixture.png",
+          "isAdult": false,
+          "genres": [
+            "Adventure"
+          ],
+          "tags": []
+        },
+        {
+          "_id": "Fixture01",
+          "name": "Invented Fixture",
+          "thumbnail": "https://allmanga.to/pics/fixture.png",
+          "isAdult": false,
+          "genres": [
+            "Adventure"
+          ],
+          "tags": []
+        },
+        {
+          "_id": "Adult01",
+          "name": "Invented Fixture",
+          "thumbnail": "https://allmanga.to/pics/fixture.png",
+          "isAdult": true,
+          "genres": [
+            "Adventure"
+          ],
+          "tags": []
+        }
+      ]
+    }
+  }
+}

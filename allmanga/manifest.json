@@ -1,0 +1,46 @@
+{
+  "contractVersion": 1,
+  "id": "allmanga-v1",
+  "familyID": "allmanga-v1",
+  "name": "AllManga (Partial Candidate)",
+  "version": "0.1.0",
+  "minimumAppVersion": "1.0.0",
+  "language": "en",
+  "contentType": "pageImages",
+  "contentRating": "unknown",
+  "releaseTrack": "beta",
+  "status": "retired",
+  "legacyIDs": [],
+  "capabilities": [
+    "search",
+    "details",
+    "chapters",
+    "images"
+  ],
+  "baseURL": "https://allmanga.to",
+  "universalLink": "https://synthetiq.uk/manga/modules/allmanga",
+  "allowedHosts": [
+    "allmanga.to",
+    "api.allanime.day"
+  ],
+  "entry": {
+    "path": "modules/allmanga/index.js",
+    "sha256": "59968c895a0a1d9fe92097aff44e91bde04edb6f3113b0fb87ea879f4dd09df1"
+  },
+  "icon": {
+    "path": "modules/allmanga/icon.png",
+    "sha256": "a8d3e743ae31e70bfa892304675e3a356e598eadd27bdb07cb3f96def34d271d"
+  },
+  "limits": {
+    "cacheTTLSeconds": 0,
+    "maxConcurrentRequests": 1,
+    "maxResponseBytes": 1048576,
+    "maxScriptBytes": 524288,
+    "timeoutMilliseconds": 25000
+  },
+  "attribution": {
+    "author": "Synthetiq source contributors",
+    "website": "https://allmanga.to",
+    "notes": "Original partial candidate; contract reference: Synthetiq-HQ repository, license preserved. No publication payloads."
+  }
+}

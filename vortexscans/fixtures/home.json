@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": 101,
+      "slug": "fixture-vortex",
+      "postTitle": "Invented Vortex",
+      "featuredImage": "https://storage.vortexscans.org/upload/fixture/cover.png",
+      "postStatus": "PUBLIC",
+      "isNovel": false,
+      "genres": [
+        {
+          "id": 1,
+          "name": "Action"
+        }
+      ],
+      "postContent": "<p>Invented description.</p>",
+      "author": "Invented Author",
+      "seriesStatus": "ONGOING"
+    }
+  ],
+  "totalCount": 1
+}

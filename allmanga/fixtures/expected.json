@@ -1,0 +1,27 @@
+{
+  "search": {
+    "items": [
+      {
+        "id": "Fixture01",
+        "title": "Invented Fixture",
+        "href": "https://allmanga.to/manga/Fixture01",
+        "cover": "https://allmanga.to/pics/fixture.png"
+      }
+    ],
+    "hasMore": true
+  },
+  "details": {
+    "id": "Fixture01",
+    "title": "Invented Fixture",
+    "href": "https://allmanga.to/manga/Fixture01",
+    "cover": "https://allmanga.to/pics/fixture.png",
+    "description": "Invented metadata only.",
+    "author": "Invented Author",
+    "status": "Ongoing",
+    "tags": [
+      "Adventure"
+    ]
+  },
+  "chaptersError": "PARTIAL: complete AllManga chapter schema unverified; live API challenged",
+  "imagesError": "PARTIAL: AllManga terminal content and image hosts unverified"
+}
