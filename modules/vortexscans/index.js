@@ -111,8 +111,25 @@
     if (!title) fail("missing series title");
     return {id,title,href:href(id),cover:url(post.featuredImage,true)};
   }
+  function queryText(query) {
+    if (query == null) return "";
+    if (typeof query === "object" && !Array.isArray(query)) {
+      for (const key of ["tags", "excludeTags", "includeTags"]) {
+        if (query[key] != null && (!Array.isArray(query[key]) || query[key].length)) fail("structured filters unsupported; use plain text");
+      }
+      for (const key of ["status", "type"]) {
+        if (query[key] != null && query[key] !== "") fail("structured filters unsupported; use plain text");
+      }
+      query = query.text ?? query.query ?? "";
+    }
+    if (typeof query !== "string" || query.length > 200) fail("invalid search text");
+    query = query.trim();
+    if (query === "__feed:latest") return "";
+    if (query.startsWith("__feed:")) fail("unknown feed");
+    return query;
+  }
   async function searchResults(query, page = 1) {
-    if (typeof query !== "string" || query.length > 200) fail("structured filters unsupported; use plain text");
+    query = queryText(query);
     if (!Number.isSafeInteger(page) || page < 1) fail("invalid page");
     const target = API + "/api/query?page=" + page + "&perPage=20&view=archive&searchTerm=" + encodeURIComponent(query.trim()) + "&orderBy=lastChapterAddedAt&orderDirection=desc";
     const data=await request(target,"json");

@@ -3,7 +3,7 @@
   "id": "vortexscans-v1",
   "familyID": "vortexscans-v1",
   "name": "Vortex",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "minimumAppVersion": "1.0.0",
   "language": "en",
   "contentType": "pageImages",
@@ -28,7 +28,7 @@
   ],
   "entry": {
     "path": "modules/vortexscans/index.js",
-    "sha256": "028a2f153da7e3df80af6f404e7906cc0b9659a4411773c0165b1088d891c044"
+    "sha256": "dde10cf39f98cbaf979d84686c5604045cda828f8a14614f29396ab5efa197b3"
   },
   "icon": {
     "path": "modules/vortexscans/icon.png",
