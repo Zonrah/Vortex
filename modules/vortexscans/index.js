@@ -109,7 +109,7 @@
     if (!eligible(post)) fail("excluded content");
     const id=identity(post.slug), title=clean(post.postTitle);
     if (!title) fail("missing series title");
-    return {id,title,href:href(id),cover:url(post.featuredImage,true)};
+    return {id,title,href:href(id),image:url(post.featuredImage,true)};
   }
   function queryText(query) {
     if (query == null) return "";
