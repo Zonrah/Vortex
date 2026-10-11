@@ -24,7 +24,7 @@
       "id": "vortexscans-v1",
       "familyID": "vortexscans-v1",
       "name": "Vortex",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "language": "en",
       "contentType": "pageImages",
       "contentRating": "suggestive",
@@ -36,7 +36,7 @@
       },
       "manifest": {
         "path": "modules/vortexscans/manifest.json",
-        "sha256": "cd4373a8a03d6f359d993bfb6358b35cbe996d475ed565beb530ab7abca9356a"
+        "sha256": "44f7af8b999d3c2460a3268dc09d729bcb7ca1b3d598e6fdeb1f36908c88caab"
       }
     }
   ],
